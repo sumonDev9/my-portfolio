@@ -4,18 +4,18 @@ const AboutMe = () => {
     return (
         <section id='about'>
         <div className="hero py-10 bg-gray-50">
-          <div className="hero-content flex flex-col md:flex-row items-center gap-8">
+          <div className="hero-content flex flex-col-reverse md:flex-row items-center gap-8">
              {/* Image Section */}
              <div className="w-full md:w-1/2 flex justify-center">
               <img
-                className="drop-shadow-md max-w-80 rounded-lg"
+                className="drop-shadow-md md:max-w-80 rounded-lg"
                 src="https://i.imgur.com/g7rfLhs.png"
                 alt="About Me"
               />
             </div>
             {/* Text Section */}
-            <div className="text-center md:w-2/3 md:text-left">
-              <h1 className="text-3xl md:text-4xl font-bold text-primary">About Me</h1>
+            <div className="md:w-2/3 md:text-left">
+              <h1 className="text-3xl md:text-4xl font-bold text-info">About Me</h1>
               <p className="mt-4 text-secondary leading-relaxed">
                 I am Sumon Mitra, a passionate Frontend Web Developer. My journey into programming began while working at a company, where I was inspired by a colleague's work. That sparked my interest in coding, and since then, I have been dedicated to learning and growing as a developer. I enjoy working with technologies like JavaScript, React, and Tailwind CSS, focusing on creating responsive and interactive user experiences.
               </p>

@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "icon": "https://i.ibb.co/jryvGKx/icons8-html-48.png",
+        "name": "HTML",
+        "category": "Markup Language",
+        "firstN": "H"
+    },
+    {
+        "id": 2,
+        "icon": "https://i.ibb.co/GtBDzNM/image.png",
+        "name": "CSS",
+        "category": "Style Sheet Language",
+        "firstN": "C"
+    },
+    {
+        "id": 3,
+        "icon": "https://i.ibb.co/Xj2n0Sz/image.png",
+        "name": "JavaScript",
+        "category": "Programming Language",
+        "firstN": "J"
+    },
+    {
+        "id": 4,
+        "icon": "https://i.ibb.co/485Tr9y/react.png",
+        "name": "React",
+        "category": "Frontend Framework",
+        "firstN": "R"
+    },
+    {
+        "id": 5,
+        "icon": "https://i.ibb.co/Z2RcfFC/image.png",
+        "name": "Tailwind CSS",
+        "category": "CSS Framework",
+        "firstN": "T"
+    },
+    {
+        "id": 6,
+        "icon": "https://i.ibb.co/Cwy9wHD/nodejs.png",
+        "name": "Node.js",
+        "category": "Backend Runtime Environment",
+        "firstN": "N"
+    },
+    {
+        "id": 7,
+        "icon": "https://i.ibb.co/6WRtgTC/image.png",
+        "name": "Express.js",
+        "category": "Backend Framework",
+        "firstN": "E"
+    },
+    {
+        "id": 8,
+        "icon": "https://i.ibb.co/6gJn540/image-21.png",
+        "name": "MongoDB",
+        "category": "NoSQL Database",
+        "firstN": "M"
+    },
+    {
+        "id": 9,
+        "icon": "https://i.ibb.co/YD87y4Q/image.png",
+        "name": "Firebase",
+        "category": "Backend-as-a-Service",
+        "firstN": "F"
+    }
+]
