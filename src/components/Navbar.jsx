@@ -35,7 +35,7 @@ const Navbar = () => {
                             {navMenu}
                         </ul>
                     </div>
-                    <a className="text-2xl font-bold">Sumon <span className="text-info">M.</span></a>
+                    <a className="text-base md:text-2xl  font-bold">Sumon <span className="text-info">M.</span></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu navlinks menu-horizontal text-base font-medium text-secondary px-1 gap-4">
@@ -43,7 +43,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="bg-[#FD6E0A] btn text-white text-base md:text-lg hover:bg-[#f0761f]">Download CV</button>
+                    <button className="bg-[#FD6E0A] btn text-white text-sm md:text-lg hover:bg-[#f0761f]">Download CV</button>
                 </div>
             </div>
         </div>
