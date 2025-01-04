@@ -68,15 +68,15 @@ const Contact = () => {
                         {/* location */}
                         <div className="flex items-center gap-3">
                             <GoLocation className="text-info text-2xl" />
-                            <span className="text-lg text-gray-800">Kolkata, India</span>
+                            <span className="text-lg text-secondary">Kolkata, India</span>
                         </div>
                         <div className="flex items-center gap-3">
                             <GoMail className="text-info text-2xl" />
-                            <span className="text-lg text-gray-800">sumonmit678@gmail.com</span>
+                            <span className="text-lg text-secondary">sumonmit678@gmail.com</span>
                         </div>
                         <div className="flex items-center gap-3">
                             <GoDeviceMobile className="text-info text-2xl" />
-                            <span className="text-lg text-gray-800">+91 9330542657</span>
+                            <span className="text-lg text-secondary">+91 9330542657</span>
                         </div>
 
                     </div>
