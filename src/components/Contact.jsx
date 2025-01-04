@@ -1,15 +1,15 @@
 import { GoLocation, GoMail, GoDeviceMobile } from 'react-icons/go';
-import { FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
+
     return (
-        <section className="bg-white py-5 sm:py-8">
+        <section id='contact' className="bg-white py-5 sm:py-8">
             <h2 className="text-3xl md:text-4xl font-bold text-info text-center mb-6">Contact With Me</h2>
 
             <div className="w-11/12 mx-auto  grid grid-cols-1 md:grid-cols-12 gap-12">
 
                 {/* Left Side Form */}
-                <div className="bg-white col-span-6 md:col-span-8 p-8 rounded-lg shadow-xl">
+                <div className="bg-white col-span-6  lg:col-span-8 p-8 rounded-lg shadow-xl">
 
                     <form>
                         {/* name */}
@@ -54,7 +54,7 @@ const Contact = () => {
                 </div>
 
                 {/* Right Side Contact Information */}
-                <div className="card flex flex-col col-span-6 bg-white md:col-span-4 rounded-lg shadow-xl">
+                <div className="card flex flex-col col-span-6 bg-white lg:col-span-4 rounded-lg shadow-xl">
                     <figure className="px-4 pt-4 group">
                         <img
                             src="https://i.ibb.co/gvWMSb8/image.png"
@@ -64,7 +64,6 @@ const Contact = () => {
                     {/* body */}
                     <div className="card-body pt-2 px-4">
                         <h1 className='text-2xl text-primary font-semibold'>Sumon Mitra</h1>
-                        {/* <p className="text-secondary">Frontend Web Developer | Passionate about creating responsive and dynamic web applications.</p> */}
                         {/* location */}
                         <div className="flex items-center gap-3">
                             <GoLocation className="text-info text-2xl" />
