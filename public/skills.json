@@ -61,5 +61,26 @@
         "name": "Firebase",
         "category": "Backend-as-a-Service",
         "firstN": "F"
+    },
+    {
+        "id": 10,
+        "icon": "https://i.ibb.co/BLq7HKR/image.png",
+        "name": "Git",
+        "category": "Version Control",
+        "firstN": "G"
+    },
+    {
+        "id": 11,
+        "icon": "https://i.ibb.co/Ybxz4Mb/pngimg-com-php-PNG34.png",
+        "name": "PHP",
+        "category": "Server-Side Scripting Language",
+        "firstN": "P"
+    },
+    {
+        "id": 12,
+        "icon": "https://i.ibb.co/JpBFxNn/image.png",
+        "name": "GitHub",
+        "category": "Version Control Hosting",
+        "firstN": "G"
     }
 ]
