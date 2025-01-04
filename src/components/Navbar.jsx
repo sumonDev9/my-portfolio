@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     const navMenu = <>
     <NavLink to='/' className='hover:underline'>Home</NavLink>
-    <NavLink to='/about' className='hover:underline'>About me</NavLink>
+    <a href="#about">About</a>
     <NavLink to='/skills' className='hover:underline'>Skills</NavLink>
     <NavLink to='/education' className='hover:underline'>Education</NavLink>
     <NavLink to='/projects' className='hover:underline'>Projects</NavLink>
