@@ -12,6 +12,16 @@ html {
   scroll-behavior: smooth;
 }
 
-.navlinks  .active {
+/* .navlinks  .active {
   color: #ec721a;
+} */
+
+.bg-button{
+  background: #ffffff;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+.bg-btn{
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }

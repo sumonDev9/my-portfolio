@@ -31,7 +31,7 @@ const Banner = () => {
             `}</p>
             {/* socal links  */}
             <div className=" mt-2  flex  items-center gap-2">
-              <button className="btn btn-circle bg-gray-300 hover:bg-info hover:text-white">
+              <button className="btn btn-circle bg-gray-200 hover:bg-info hover:text-white">
               <Link
                 to="https://github.com/sumonDev9"
                 target="_blank"
@@ -40,7 +40,7 @@ const Banner = () => {
                 <BsGithub />
               </Link>
               </button>
-             <button className="btn btn-circle bg-gray-300 hover:bg-info hover:text-white">
+             <button className="btn btn-circle bg-gray-200 hover:bg-info hover:text-white">
              <Link
                 to="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"
                 target="_blank"
@@ -49,7 +49,7 @@ const Banner = () => {
                 <FaLinkedin />
               </Link>
              </button>
-              <button className="btn btn-circle bg-gray-300 hover:bg-info hover:text-white">
+              <button className="btn btn-circle bg-gray-200 hover:bg-info hover:text-white">
               <Link
                 to="https://www.facebook.com/kiron8391"
                 target="_blank"
@@ -66,7 +66,7 @@ const Banner = () => {
                <a
                        href="/SumonMitra-CV.pdf"
                        download
-                       className="bg-[#FD6E0A] flex items-center gap-2 text-white px-2 py-2 md:px-6 md:py-3 rounded-lg shadow-lg text-sm md:text-base font-medium hover:bg-[#f0761f]">
+                       className="bg-[#FD6E0A] flex items-center gap-2 text-white px-2 py-2 md:px-6 md:py-3 rounded-lg  text-sm md:text-base font-medium hover:bg-[#f0761f]">
                       <GoDownload  className="text-lg font-medium text-white"/> Download CV
                    </a>
                </button>

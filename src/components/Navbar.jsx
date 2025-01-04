@@ -6,7 +6,7 @@ const Navbar = () => {
     <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
-    <NavLink to='/education' className='hover:underline'>Education</NavLink>
+    <a href="#education">Education</a>
     <NavLink to='/projects' className='hover:underline'>Projects</NavLink>
     <NavLink to='/contact' className='hover:underline'>Contact</NavLink>
     </>
