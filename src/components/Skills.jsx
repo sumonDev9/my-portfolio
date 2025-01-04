@@ -12,7 +12,7 @@ const Skills = () => {
     },[])
 
     return (
-   <section className='bg-gray-100 py-10 md:py-20'>
+   <section id='skills' className='bg-gray-100 py-10 md:py-20'>
             <div className='w-11/12 mx-auto'>
         <div className='text-center mb-6'>
             <h1 className='text-info text-4xl font-bold'>Skills</h1>
@@ -22,7 +22,7 @@ const Skills = () => {
          {
             skills.map(skill => <div skill={skill.id}>
                     
-            <div className='group relative flex flex-col justify-center items-center bg-white rounded-xl p-6 shadow-md hover:shadow-xl hover:bg-orange-50 transition-all duration-300'>
+            <div className='group relative flex flex-col justify-center items-center bg-white rounded-xl p-6 shadow-xl hover:shadow-2xl hover:bg-orange-50 transition-all duration-300'>
             <div className='relative'>
                 <img 
                     src={skill.icon} 

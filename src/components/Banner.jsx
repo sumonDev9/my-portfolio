@@ -6,7 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
     return (
-    <div className=" pt-20 relative overflow-hidden bg-cover" 
+    <div id="home" className=" pt-20 relative overflow-hidden bg-cover" 
     >
       <div className=" container gap-4 mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
         <div className="md:w-6/12 w-11/12 mx-auto">
