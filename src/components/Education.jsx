@@ -5,7 +5,7 @@ const Education = () => {
  <section id='education' className="bg-white py-12 md:py-20">
   <div className="max-w-7xl mx-auto px-4 sm:px-6">
     <div className="text-center mb-12">
-      <h2 className="text-4xl font-bold text-info">Educational Qualification</h2>
+      <h2 className="text-3xl md:text-4xlfont-bold text-info">Educational Qualification</h2>
       <p className="text-lg text-secondary mt-2 max-w-xl mx-auto">My academic journey and achievements that shaped me into a passionate learner and professional.</p>
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

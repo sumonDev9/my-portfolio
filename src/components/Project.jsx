@@ -11,10 +11,10 @@ const Project = () => {
     }, [])
 
     return (
-        <section className=" py-16 bg-white">
+        <section id='projects' className=" py-16 bg-white">
             {/* content */}
             <div className='text-center'>
-                <h2 className="text-4xl font-bold text-info mb-4">My Projects</h2>
+                <h2 className="text-3xl md:text-4xlfont-bold text-info mb-4">My Projects</h2>
                 <p className="text-secondary max-w-xl mx-auto">
                     A showcase of my web development projects that highlight my skills in design, functionality, and creativity. Explore and experience the craftsmanship behind each project.
                 </p>

@@ -7,8 +7,8 @@ const Navbar = () => {
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#education">Education</a>
-    <NavLink to='/projects' className='hover:underline'>Projects</NavLink>
-    <NavLink to='/contact' className='hover:underline'>Contact</NavLink>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
     </>
     return (
         <div className="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur-md  shadow-md">
