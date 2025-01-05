@@ -1,7 +1,20 @@
+import axios from 'axios';
 import { GoLocation, GoMail, GoDeviceMobile } from 'react-icons/go';
 
 const Contact = () => {
 
+    const handlesubmit = async e => {
+        e.preventDefault();
+        const form = e.target;
+        const name = form.name.value;
+        const email = form.email.value;
+        const message = form.message.value;
+        
+
+        const formData = {name, email, message}
+        const {data} = await axios.post('http://localhost:5000/register',formData)
+        console.log(data)
+    }
     return (
         <section id='contact' className="bg-white py-5 sm:py-8">
             <h2 className="text-3xl md:text-4xl font-bold text-info text-center mb-6">Contact With Me</h2>
@@ -11,7 +24,7 @@ const Contact = () => {
                 {/* Left Side Form */}
                 <div className="bg-white col-span-6  lg:col-span-8 p-8 rounded-lg shadow-xl">
 
-                    <form>
+                    <form onSubmit={handlesubmit}>
                         {/* name */}
                         <div className="mb-4">
                             <label htmlFor="name" className="block text-lg font-medium text-primary mb-2">Name</label>
