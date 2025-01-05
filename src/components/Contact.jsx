@@ -28,7 +28,7 @@ const Contact = () => {
                 Swal.fire({
                     icon: 'success',
                     title: 'Success',
-                    text: 'Your form has been submitted successfully!',
+                    text: 'Your email has been sent. We will respond soon!',
                 });
             }
             console.log(data);
@@ -36,7 +36,7 @@ const Contact = () => {
             Swal.fire({
                 icon: 'error',
                 title: 'Submission Failed',
-                text: error.message || 'An error occurred. Please try again.',
+                text: error.message || 'Could not send email. Please try again.',
             });
         }
     }
