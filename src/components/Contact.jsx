@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { GoLocation, GoMail, GoDeviceMobile } from 'react-icons/go';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
 
@@ -10,10 +11,34 @@ const Contact = () => {
         const email = form.email.value;
         const message = form.message.value;
         
+        if (!name || !email || !message) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'All fields are required!',
+            });
+            return;
+        }
 
         const formData = {name, email, message}
-        const {data} = await axios.post('http://localhost:5000/register',formData)
-        console.log(data)
+
+        try {
+            const { data } = await axios.post('http://localhost:5000/register', formData);
+                if(data.messageId){
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Success',
+                    text: 'Your form has been submitted successfully!',
+                });
+            }
+            console.log(data);
+        } catch (error) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Submission Failed',
+                text: error.message || 'An error occurred. Please try again.',
+            });
+        }
     }
     return (
         <section id='contact' className="bg-white py-5 sm:py-8">
