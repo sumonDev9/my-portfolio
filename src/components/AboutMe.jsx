@@ -8,8 +8,8 @@ const AboutMe = () => {
              {/* Image Section */}
              <div className="w-full md:w-1/2 flex justify-center">
               <img
-                className="drop-shadow-md md:max-w-80 rounded-lg"
-                src="https://i.imgur.com/g7rfLhs.png"
+                className="drop-shadow-md md:max-w-80 rounded-full"
+                src="https://i.ibb.co/z7Bxgp6/mitra.png"
                 alt="About Me"
               />
             </div>

@@ -75,8 +75,8 @@ const Banner = () => {
         </div>
         <div className=" md:w-5/12">
           <img
-            className=" drop-shadow-md text-primary-color w-full "
-            src="https://i.imgur.com/g7rfLhs.png"
+            className="  text-primary-color w-full "
+            src="https://i.ibb.co/z7Bxgp6/mitra.png"
             alt=""
           />
         </div>
