@@ -35,7 +35,7 @@ const Footer = () => {
              </button>
               <button className="btn btn-circle bg-gray-200 hover:bg-info hover:text-white">
               <Link
-                to="https://www.facebook.com/kiron8391"
+                to="https://www.facebook.com/sumon.mitra.739"
                 target="_blank"
                 className=" text-2xl "
               >
