@@ -23,7 +23,7 @@ const Contact = () => {
         const formData = {name, email, message}
 
         try {
-            const { data } = await axios.post('http://localhost:5000/register', formData);
+            const { data } = await axios.post('https://my-portfolio-server-side-pi.vercel.app/register', formData);
                 if(data.messageId){
                 Swal.fire({
                     icon: 'success',
@@ -42,7 +42,7 @@ const Contact = () => {
         }
     }
     return (
-        <section id='contact' className="bg-white py-5 sm:py-8">
+        <section name='contact' className="bg-white py-5 sm:py-8">
             <h2 className="text-3xl md:text-4xl font-bold text-info text-center mb-6">Contact With Me</h2>
 
             <div className="w-11/12 mx-auto  grid grid-cols-1 md:grid-cols-12 gap-12">

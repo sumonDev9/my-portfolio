@@ -11,7 +11,7 @@ const Project = () => {
     }, [])
 
     return (
-        <section id='projects' className=" py-16 bg-white">
+        <section name='projects' className=" py-16 bg-white">
             {/* content */}
             <div className='text-center px-4'>
                 <h2 className="text-3xl md:text-4xlfont-bold text-info mb-4">My Projects</h2>

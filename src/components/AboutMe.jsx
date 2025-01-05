@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
     return (
-        <section id='about'>
+        <section name='about'>
         <div className="hero py-10 bg-gray-50">
           <div className="hero-content flex flex-col-reverse md:flex-row items-center gap-8">
              {/* Image Section */}

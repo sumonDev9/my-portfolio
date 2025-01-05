@@ -12,7 +12,7 @@ const Skills = () => {
     },[])
 
     return (
-   <section id='skills' className='bg-white py-10 md:py-20'>
+   <section name='skills' className='bg-white py-10 md:py-20'>
             <div className='w-11/12 mx-auto'>
         <div className='text-center mb-6'>
             <h1 className='text-info text-3xl md:text-4xl font-bold'>Skills</h1>

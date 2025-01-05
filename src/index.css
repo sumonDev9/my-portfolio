@@ -12,9 +12,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* .navlinks  .active {
+a.link-active {
   color: #ec721a;
-} */
+}
 
 .bg-button{
   background: #ffffff;

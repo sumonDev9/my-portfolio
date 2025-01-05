@@ -1,14 +1,14 @@
-import { NavLink } from "react-router-dom";
+import { Link as Scrollink } from "react-scroll";
 
 
 const Navbar = () => {
     const navMenu = <>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#education">Education</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+    <Scrollink to="home" spy  activeClass={"link-active"}>Home</Scrollink>
+    <Scrollink to="about" spy  activeClass={"link-active"}>About</Scrollink>
+    <Scrollink to="skills" spy  activeClass={"link-active"}>Skills</Scrollink >
+    <Scrollink to="education" spy  activeClass={"link-active"}>Education</Scrollink >
+    <Scrollink to="projects" spy  activeClass={"link-active"}>Projects</Scrollink >
+    <Scrollink to="contact" spy  activeClass={"link-active"}>Contact</Scrollink >
     </>
     return (
         <div className="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur-md  shadow-md">
