@@ -30,6 +30,7 @@ const Contact = () => {
                     title: 'Success',
                     text: 'Your email has been sent. We will respond soon!',
                 });
+                form.reset();
             }
             console.log(data);
         } catch (error) {
