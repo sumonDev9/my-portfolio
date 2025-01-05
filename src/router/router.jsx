@@ -12,13 +12,14 @@ const router = createBrowserRouter([
             path: '/',
             element: <Home></Home>
         },
-        {
-          path: '/projects/:id',
-          element: <ProjectDetails></ProjectDetails>,
-          loader: () => fetch("/project.json")
-        }
+        
       ]
     },
+    {
+      path: '/projects/:id',
+      element: <ProjectDetails></ProjectDetails>,
+      loader: () => fetch("/project.json")
+    }
   ]);
 
 export default router;

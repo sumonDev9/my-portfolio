@@ -11,7 +11,7 @@ const ProjectDetails = () => {
 
 
     return (
-        <div className='pt-24 bg-gray-50'>
+        <div className='pt-10 bg-gray-50'>
       <ScrollRestoration></ScrollRestoration>
             <div className="max-w-7xl  mx-auto px-6 py-12">
       {/* Project Header Section */}
