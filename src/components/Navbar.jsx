@@ -44,7 +44,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <a
-                        href="/public/sumon-mitra-resume.pdf"
+                        href="/sumon-mitra-resume.pdf"
                         download
                         className="bg-[#FD6E0A] btn text-white text-sm md:text-lg hover:bg-[#f0761f]"
                     >
