@@ -43,8 +43,13 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="bg-[#FD6E0A] btn text-white text-sm md:text-lg hover:bg-[#f0761f]">Download CV</button>
-                </div>
+                    <a
+                        href="/public/sumon-mitra-resume.pdf"
+                        download
+                        className="bg-[#FD6E0A] btn text-white text-sm md:text-lg hover:bg-[#f0761f]"
+                    >
+                        Download CV
+                    </a>                </div>
             </div>
         </div>
     );
