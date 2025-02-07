@@ -64,7 +64,7 @@ const Banner = () => {
             <div className="mt-3">
             <button>
                <a
-                       href="/SumonMitra-CV.pdf"
+                       href="/public/sumon-mitra-resume.pdf"
                        download
                        className="bg-[#FD6E0A] flex items-center gap-2 text-white px-2 py-2 md:px-6 md:py-3 rounded-lg  text-sm md:text-base font-medium hover:bg-[#f0761f]">
                       <GoDownload  className="text-lg font-medium text-white"/> Download CV
